@@ -14,7 +14,7 @@ It must offers not only making severe system administration jobs relax, but also
 - CLI terminal supporting ANSI escape sequence. 
 
 ## Usage
-...
+```
 techo [-0~5|-q|-b|-d|-l|-r|-f text-file] [--] [message ... ]
 
   -0 ~ -5      ... change face (default: -0)
@@ -25,32 +25,32 @@ techo [-0~5|-q|-b|-d|-l|-r|-f text-file] [--] [message ... ]
   -r           ... position face to the right (default)
   -f text-file ... read message from text-file
   --           ... end of command line options
-...
+```
 
 (simple example)
-...
+```
 $ techo hello world
-...
+```
 
 (reading message from pipeline)
-...
+```
 $ date | techo
-...
+```
 
 (just see Teto's face)
-...
+```
 $ techo -q
-...
+```
 
 (change face depending on command execution result)
-...
+```
 $ gcc sample.c && techo -1 -q -d || techo -5 -q -d
-...
+```
 
 (instant ramen timer)
-...
+```
 $ sleep 180; techo -1 'READY!'
-...
+```
 
 ## License
 
