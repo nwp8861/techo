@@ -14,8 +14,9 @@
 #                              or the MIT license
 #   MIT-0: https://opensource.org/license/MIT-0
 #   MIT:   https://opensource.org/license/mit
+#
 # copyright of Teto:
-#   PCL (applied mutatis mutandisapp)
+#   PCL (applied mutatis mutandis)
 #   https://kasaneteto.jp/guideline/ctu.html
 #
 # 補足:
