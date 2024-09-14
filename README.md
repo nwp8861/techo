@@ -54,10 +54,10 @@ $ sleep 180; techo -1 'READY!'
 
 ## License
 
-the source code:
-  2024, nwp8861, released under the MIT No Attribution license (MIT-0)
-  MIT-0: https://opensource.org/license/MIT-0
+- source code:
+-- 2024, nwp8861, released under the MIT No Attribution license (MIT-0)
+-- MIT-0: https://opensource.org/license/MIT-0
 
-Teto:
-  PCL (applied mutatis mutandis)
-  [https://kasaneteto.jp/guideline/ctu.html](https://kasaneteto.jp/guideline/ctu.html)
+- Teto:
+-- PCL (applied mutatis mutandis)
+-- [https://kasaneteto.jp/guideline/ctu.html](https://kasaneteto.jp/guideline/ctu.html)
