@@ -6,7 +6,7 @@
 
 This Python script is simply print text message to stdout like echo or cat command on Linux, but it can decorate your terminal with dotted [Teto](https://kasaneteto.jp/)'s face at that time. 
 
-The appearance of 8 color dotted Teto offers not only relaxation to extremely hard and severe system administration tasks, but also useful to prevent missing important notices. 
+The appearance of 8 color dotted Teto offers not only relaxation and happiness to extremely hard and severe system administration tasks, but also useful to prevent missing important notices. 
 
 ## Yet Another Overview
 
