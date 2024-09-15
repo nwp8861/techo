@@ -383,7 +383,7 @@ if align == 'R':
       if color == '.': N += 2          # 絵の1ドットを2文字分としてカウントする
       else: break
     if outN < N:
-      msgStart = l
+      msgStart = int(len(img[imgSeq])/2) - int(s/2+0.5)
       break
   msgStart2 = int(len(img[imgSeq]) / 2 - lineNum / 2 + 0.5)  # 上下中央ぞろえの場合
   if msgStart2 < 0: msgStart2 = 0
