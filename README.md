@@ -74,7 +74,7 @@ $ sleep 180; techo -1 'READY!'
 
 ## Author
 
-[blog](http://nwp8861.blog92.fc2.com/)
-[X](https://x.com/nwp8861)
-[nicovideo](https://www.nicovideo.jp/user/5717366/video)
-[YouTube](http://www.youtube.com/user/nwp8861)
+- [blog](http://nwp8861.blog92.fc2.com/)
+- [X](https://x.com/nwp8861)
+- [nicovideo](https://www.nicovideo.jp/user/5717366/video)
+- [YouTube](http://www.youtube.com/user/nwp8861)
