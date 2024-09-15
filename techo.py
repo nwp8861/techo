@@ -59,7 +59,7 @@ usage: {argv0} [-0~5|-q|-b|-d|-l|-r|-f text-file] [--] [message ... ]
 # Ctrl+cが来たら画面設定をリセットして終了
 #
 def ctrlC(signal, frame):
-  print ('\e[0m', end='')
+  print("\033[0m", end='')
   sys.exit(0)
 signal.signal(signal.SIGINT, ctrlC)   # SIGINTにctrlC()を紐づける
 
