@@ -25,7 +25,6 @@
 
 import signal
 import sys
-import sys
 import re
 import shutil
 import os
