@@ -21,7 +21,7 @@ so cute.
 
 As simply, save techo.py in your computer and execute it on terminal. 
 
-When saving the techo.py in a directory included in the PATH, it is recommended to change the file name to techo. Or, it may be useful to save the file in anywhere you want and alias it with the alias command, such as “alias techo=/__FILE_PATH__/techo.py”.
+If you save techo.py in a directory included in the PATH, it is recommended to change the filename into techo. Or, it may be useful to save the file in anywhere you want and alias it with the alias command, such as “alias techo=/_ _FILE_PATH_ _/techo.py”.
 
 ## Usage
 ```
