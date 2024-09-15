@@ -11,10 +11,7 @@
 #
 # copyright of the source code:
 #   2024, nwp8861, released under the MIT No Attribution license (MIT-0)
-#                              or the MIT license
 #   MIT-0: https://opensource.org/license/MIT-0
-#   MIT:   https://opensource.org/license/mit
-#
 # copyright of Teto:
 #   PCL (applied mutatis mutandis)
 #   https://kasaneteto.jp/guideline/ctu.html
@@ -363,15 +360,27 @@ if align == 'R':
     exit()
 
 #---------------------------------------------
+# 字幅をカウントする。全角文字は2カウント。
+#---------------------------------------------
+def countChar(msg):
+  N = 0
+  for c in list(msg):
+    w = unicodedata.east_asian_width(c)     # 出力文字の文字幅を求める
+    if w in 'FWA': N += 2                   # 全角文字の場合
+    else: N += 1
+  return N
+
+#---------------------------------------------
 # メッセージの出力開始行msgStartを決める
 #
 if align == 'R':
   msgStart = 0
-  outN = len(msg)
-  N = 0
-  for l in reversed(range(len(img[imgSeq]))):
+  outN = countChar(msg)    # 出力したい文字数
+  N = 0                    # 絵の横に出力できる文字数をカウントする変数
+  for s in range(len(img[imgSeq])):
+    l = int(len(img[imgSeq])/2) + int(s/2+0.5) * ((-1)**s)
     for color in list(img[imgSeq][l]):
-      if color == '.': N += 1
+      if color == '.': N += 2          # 絵の1ドットを2文字分としてカウントする
       else: break
     if outN < N:
       msgStart = l
@@ -481,4 +490,3 @@ else:            outRight(img, imgSeq, width, msg, msgStart)
 
 # 文字設定をリセットする
 print("\033[0m", end='')
-
