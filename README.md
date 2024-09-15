@@ -47,7 +47,7 @@ $ techo hello world
 $ date | techo
 ```
 
-(just see Teto's face)
+(just print Teto's face)
 ```
 $ techo -q
 ```
