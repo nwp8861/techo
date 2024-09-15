@@ -19,7 +19,7 @@ so cute.
 
 ## Install
 
-As simply, save techo.py in your computer and execute on terminal. 
+As simply, save techo.py in your computer and execute it on terminal. 
 
 When saving the techo.py in a directory included in the PATH, it is recommended to change the file name to techo. Or, it may be useful to save the file in anywhere you want and alias it with the alias command, such as “alias techo=/__FILE_PATH__/techo.py”.
 
