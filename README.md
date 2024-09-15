@@ -4,7 +4,7 @@
 
 ## Sublime Overview
 
-This Python script is simply print text message to stdout like echo or cat command on Linux, but it can decorate your terminal with dotted Teto's face at that time. 
+This Python script is simply print text message to stdout like echo or cat command on Linux, but it can decorate your terminal with dotted [Teto](https://kasaneteto.jp/)'s face at that time. 
 
 The appearance of 8 color dotted Teto offers not only relaxation to extremely hard and severe system administration tasks, but also useful to prevent missing important notices. 
 
@@ -71,3 +71,10 @@ $ sleep 180; techo -1 'READY!'
 - Teto:
   - PCL (applied mutatis mutandis)
   - [https://kasaneteto.jp/guideline/ctu.html](https://kasaneteto.jp/guideline/ctu.html)
+
+## Author
+
+[blog](http://nwp8861.blog92.fc2.com/)
+[X](https://x.com/nwp8861)
+[nicovideo](https://www.nicovideo.jp/user/5717366/video)
+[YouTube](http://www.youtube.com/user/nwp8861)
