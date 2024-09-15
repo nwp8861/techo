@@ -1,6 +1,6 @@
 # techo - TETO's echo
 
-![help screen](https://github.com/nwp8861/techo/blob/main/techo-help.png)
+![demo gif](https://github.com/nwp8861/techo/blob/main/techo-demo.gif)
 
 ## Sublime Overview
 
