@@ -10,7 +10,7 @@ The appearance of 8 color dotted Teto offers not only relaxation and happiness t
 
 ## Yet Another Overview
 
-so cute. 
+kawaii 
 
 ## Requirement
 
